@@ -1,6 +1,10 @@
-@import "./_variables.scss";
-@import "./night.scss";
-@import "./light.scss";
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Part
+@import "variables";
+@import "night";
+@import "light";
 
 body{
   margin:0px;

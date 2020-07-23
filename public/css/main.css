@@ -1,0 +1,130 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);.BackgroundNight {
+  color: #E6E6E6;
+  background-color: #3F476F;
+}
+
+.BarsNight {
+  background-color: #E6E6E6;
+}
+
+.TextNight {
+  color: #E6E6E6;
+}
+
+.bodyNight {
+  background-color: #2B3461;
+}
+
+.personNight {
+  background-image: url(/images/image-navy.svg?a91faa5d1f9184c656872f2a4554f298);
+}
+
+.BackgroundLight {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.BarsLight {
+  background-color: #000000;
+}
+
+.TextLight {
+  color: #000000;
+}
+
+.bodyLight {
+  background-color: #F5F5F5;
+}
+
+.personLight {
+  background-image: url(/images/image-white.svg?759c9ed06719b51a3a6a7c6994fb2211);
+}
+
+body {
+  margin: 0px;
+}
+
+.container {
+  height: 100vh;
+  overflow: scroll;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 35px;
+  border-radius: 0px 0px 30px 30px;
+  height: 79px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.bars {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.bars div {
+  margin: 1px 0px;
+}
+
+.bars div:first-child {
+  width: 17px;
+  padding: 1.5px;
+  transition: 0.3s background-color;
+}
+
+.bars div:nth-child(2) {
+  width: 15px;
+  padding: 1.5px;
+  transition: 0.3s background-color;
+}
+
+.bars div:last-child {
+  width: 13px;
+  padding: 1.5px;
+  transition: 0.3s background-color;
+}
+
+.header {
+  margin: 15px 35px 15px 35px;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  transition: 0.3s color;
+}
+
+.image-landing {
+  margin: 15px 0px 15px 0px;
+  overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image-landing img {
+  opacity: 0;
+}
+
+.img-dribbble {
+  margin: 15px 35px 15px 35px;
+  text-align: center;
+}
+
+.img-dribbble img {
+  width: 70px;
+  height: 70px;
+}
+
+@media only screen and (max-width: 400px) {
+  .image-landing {
+    background-position: -70px center;
+  }
+
+  .header {
+    text-align: left;
+  }
+}
+
